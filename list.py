@@ -27,6 +27,11 @@ while i < len(marks):
     print(marks[i])
     i=i+1  
 
+#Sorting
+
+marks.sort()
+print(marks) 
+  
 #to clear list
 marks.clear()
 print(marks)
