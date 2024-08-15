@@ -2,7 +2,7 @@ students="Radha","Ankita","Annie","Bella","Rumi"
 
 for student in students:
     if student=="Annie":
-        break;
+        break
     print(student)
 
 print("For continue statement")
