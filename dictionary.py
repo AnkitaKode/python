@@ -1,9 +1,8 @@
-marks={"english":96,"maths":56}
-information={"ram":"dasrath"}
+customer={
+    "name":"Ankita",
+    "age":19,
+    "is_Verified":True
+}
 
-print(marks["english"])
-marks["physics"]=96
-print(marks)
-
-marks["physics"]=99
-print(marks)
+print(customer["name"])
+print(customer["is_Verified"])
