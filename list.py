@@ -1,4 +1,4 @@
-#list[] #tuple() #set{}
+#list[] #tuple() #set{} ~DEFINITION
 marks=[23,45,28]
 
 for score in marks:
@@ -31,7 +31,7 @@ while i < len(marks):
 
 marks.sort()
 print(marks) 
-  
+
 #to clear list
 marks.clear()
 print(marks)
