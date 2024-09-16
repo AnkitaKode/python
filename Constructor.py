@@ -1,12 +1,16 @@
-class Point:
-    def __init__(self,x,y):    #Constructor classs
-        self.x=x
-        self.y=y
-    def move(self):
-        print("Move")
-    def go(self):
-        print("Go")
-
-
-num=Point(10,20)
-print(num.y)
+class Employee:  
+    def __init__(self, name, id):  
+        self.id = id  
+        self.name = name  
+  
+    def display(self):  
+        print("ID: %d \nName: %s" % (self.id, self.name))  
+  
+  
+emp1 = Employee("John", 101)  
+emp2 = Employee("David", 102)  
+ 
+  
+emp1.display()  
+print(emp1.name)
+emp2.display()  
