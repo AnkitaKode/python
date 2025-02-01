@@ -4,7 +4,6 @@ marks=[23,45,28]
 for score in marks:
     print(score)
 
-
 print(marks)
 print(marks[0])
 print(marks[-1])
